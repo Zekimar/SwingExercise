@@ -1,0 +1,10 @@
+apply plugin: 'java'
+apply plugin: 'application'
+mainClassName ="tictactoe"
+repositories {
+    mavenCentral()
+}
+
+task plumbus << {
+    println "A plumbus for you!"
+}
