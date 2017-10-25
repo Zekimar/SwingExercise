@@ -46,6 +46,7 @@ public class tictactoe {
 	    JButton source = (JButton) e.getSource();
 	    String currentText = source.getText();
         if (source == _newGame){
+            X = true;
             for(JButton j: _buttons){
                 j.setEnabled(true);
                 j.setText("_");
